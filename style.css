@@ -1,0 +1,141 @@
+.content{
+    width: 750px;
+    height: 600px;
+    margin:0px auto; 
+    /* border:1px solid black; */
+}
+header{
+    width:100%;
+    height: 200px;
+    border-bottom:1px solid;
+}
+.menu{
+    width: 100%;
+    height: 50px;}
+    
+.menu a{
+    display:flex;
+    width: 140px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    float:left;
+    background-color: white;
+    color:black;
+    padding:15px 0 0 0;
+    text-align: center;
+    /* border:1px solid; */
+}
+.menu ul li a#aboutid{
+    background-image:url(about.gif);
+    width: 70px;
+    height: 46px;
+    background-color: yellow;
+    margin:-10px 0 0 10px;
+}
+.menu a:hover{
+    color:white;
+}
+.menu ul li a#serviceid:hover{
+    background-color: blue;
+}
+.menu ul li a#portfelioid:hover{
+     background-color: green;
+}
+.menu ul li a#contactUsid:hover{
+    background-color: red;
+}
+.BGImage{
+    width: 750px;
+    height: 90px;
+    display: block;
+    background: url(info.jpg);
+    padding-top: 50px;
+}
+#bigspanid{
+    display: block;
+    width: 250px;
+    height: 30px;
+    color:white;
+    margin-left: 500px;
+    margin-top:5px;
+}
+#enlighitenid{
+    font-size: 35px;
+}
+#designid{
+    font-size: 25px;
+}
+main{
+    width: 100%;
+    height: 400px;
+    font-size:15px;
+    color:gray;
+    text-align: justify;
+}
+
+#aboutid{
+    color:red;
+    font:bold 20px tahoma;
+}
+#leftMain{
+    width: 400px;
+    height: 370px;
+    float:left;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+#enlightendesignid{
+    color:black;
+    font:bold 18px tahoma;
+
+}
+#contactusid{
+    color:blue;
+    font-size:18px;
+
+    }
+.rightMain{
+    padding-top: 20px;
+ 
+}
+footer{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid;
+}
+.infodiv{
+    width: 400px;
+    height: 50px;
+    color:gray;
+    float: left;
+    font-size: 15px;
+    padding-top:20px;
+}
+.menudiv{
+    width: 350px;
+    height: 50px;
+    float: left;
+    padding-top:20px;
+}
+.menudiv ul li{
+    list-style: none;
+}
+.menudiv li{
+    float:left;
+}
+.menudiv ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    color: blue;
+    padding-top: 10px;
+}
+.menudiv a:hover{
+    box-shadow: 5px 5px 10px yellow;
+
+}
